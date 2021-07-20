@@ -209,7 +209,7 @@
 	const svg = document.getElementById('triangles');
   
         svg.onclick = (e) => {
-          const colors = ['red', 'blue', 'green', 'orange', 'pink', 'purple']
+          const colors = ['red', 'blue', 'green', 'orange', '#eae8ffff', '#d8d5dbff', '#adacb5ff', '#2d3142ff', '#b0d7ffff', '#faa916ff', '#beee62ff', '#95f9e3ff']
           const rando = () => colors[Math.floor(Math.random() * colors.length)];
           document.documentElement.style.cssText = `
           --dark-color: ${rando()};
